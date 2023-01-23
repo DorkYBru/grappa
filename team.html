@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="./assets/javascript/title.js"></script>
+      <link rel="stylesheet" href="./assets/styles/main.css">
+      <link rel="stylesheet" href="./assets/styles/waves.css">
+      <link rel="stylesheet" href="./assets/styles/features.css">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <link rel="icon" type="image/x-icon" href="./assets/media/images/grappa-nobub.ico">
+      <title>grappa.cc</title>
+   </head>
+   <body>
+    <div class="loader">
+        <img data-aos="fade-down" src="/assets/media/images/loading.gif">
+        <br>
+        <img height="50px" data-aos="fade-up" src="/assets/media/images/loading-text.gif">
+     </div>
+      <div class="waves-container">
+         <div>
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+               viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+               <defs>
+                  <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+               </defs>
+               <g class="parallax">
+                  <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(0,245,242,0.7" />
+                  <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(0,245,242,0.5)" />
+                  <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(0,245,242,0.3)" />
+                  <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+               </g>
+            </svg>
+         </div>
+      </div>
+      <span class="team-title">Our Team:</span>
+      <div class="team-container">
+         <div class="team-avatars">
+            <img height="200px" id="avatar" class="avatar" src="https://cdn.discordapp.com/avatars/1031224459513843723/cfa5094c2b7f974ea061936fbcf3311c.png?size=1024">
+            <div class="avatar-text"><span>ndm#2908</span></div>
+         </div>
+         <div class="team-avatars">
+            <img height="200px" id="avatar" class="avatar" src="https://cdn.discordapp.com/avatars/473829863107854336/a_8a24222e79b2584ec52df2eb972fcf7a.gif?size=1024">
+            <div class="avatar-text"><span>тαρρу#3500</span></div>
+         </div>
+      </div>
+      <div class="features-container">
+         <div class="feature">
+            <img height="50px" src="/assets/media/images/aimbot.png">
+            <span>Never Miss</span>
+            <img height="50px" src="/assets/media/images/bunnyhop.png">
+            <span>Move Faster</span>
+            <img height="50px" src="/assets/media/images/private.png">
+            <span>Stay anonymous</span>
+            <img height="50px" src="/assets/media/images/win.png">
+            <span>Win</span>
+         </div>
+         <p class="footer">
+            &copy; 2023-<script>document.write(/\d{4}/.exec(Date())[0])</script> grappa.cc All rights reserved.
+         </p>
+      </div>
+      <script>
+         AOS.init();
+      </script>
+      <img loading="lazy" data-aos="fade-right" class="felix"src="/assets/media/images/felix.webp">
+      <img loading="lazy" data-aos="fade-left" class="felix2"src="/assets/media/images/felix.webp">
+      <style>
+        .loader {
+        -webkit-animation: load-out 5s;
+        animation: load-out 5s;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+        }
+        @-webkit-keyframes load-out {
+        from {
+        top: 0;
+        opacity: 1;
+        }
+        to {
+        top: 100%;
+        opacity: 0;
+        }
+        }
+        @keyframes load-out {
+        from {
+        top: 0;
+        opacity: 1;
+        }
+        to {
+        top: 100%;
+        opacity: 0;
+        }
+        }
+     </style>
+  </body>
+</html>
