@@ -1,0 +1,96 @@
+body {
+    text-align: center;
+    background: linear-gradient(to right,white 0%,white 50%,#1e2124 50%,#1e2124 100%);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.button-light{
+    left: 25%;
+    position:absolute;
+    top: 50%;
+    background-color: #1e2124;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: xx-large;
+    color: white;
+    transition: ease-in-out .5s;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.button-dark{
+    right: 25%;
+    position:absolute;
+    top: 50%;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: xx-large;
+    color: black;
+    transition: ease-in-out .5s;
+    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.button-dark a{
+    color: black;
+}
+.button-dark:hover{
+    box-shadow: -5px 5px 5px #fff ;
+    scale: 110%;
+}
+.button-light:hover{
+    box-shadow: -5px 5px 5px #000 ;
+    scale: 110%;
+}
+.title{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    font-size: xx-large;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    background: linear-gradient(to right,#1e2124 0%,#1e2124 50%,white 50%,white 100%);
+}
+.title1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    font-size: xx-large;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    background: white;
+    box-shadow: -5px 5px 5px #000 ;
+}
+.dark{
+    color: black;
+    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+.white{
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.wave {
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }
+    100% { transform: rotate( 0.0deg) }
+  }

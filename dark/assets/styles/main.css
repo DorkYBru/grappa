@@ -1,0 +1,73 @@
+@import url(team.css);
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0%;
+    height: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1e2124;
+}
+a{
+    text-decoration: none;
+}
+span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+}
+.title{
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.waves-container{
+    position: inherit;
+    width: 100%;
+    background-color: #883e87;
+}
+.title-container{
+    text-decoration: none;
+    text-align: center;
+    
+}
+.buttoner{
+    background-color: #883e87;
+    border-radius: 5%;
+    padding: 15px;
+}
+.footer {
+    font-size: small;
+    color: black;
+    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+}
+.felix{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    height: 90%;
+}
+.felix2{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    height: 90%;
+}
+@media only screen and (max-width: 1280px) {
+    .felix{
+        display: none;
+    }
+    .felix2{
+        display: none;
+    }
+}
+.loader {
+    position: fixed;
+    background-color: #1e2124;
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
